@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="OrbixCorp - Innovative Software Solutions & AI-Powered Applications. Transform your business with cutting-edge technology.">
+    <meta name="keywords" content="Software Solutions, AI Applications, Business Tools, ZaNi.Ai, Technology">
+    <meta name="author" content="OrbixCorp">
+    <meta property="og:title" content="OrbixCorp - Innovative Technology Solutions">
+    <meta property="og:description" content="Cutting-edge software solutions and AI-powered applications for modern enterprises">
+    
+    <title>OrbixCorp - Innovative Software Solutions & AI-Powered Applications</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-cube"></i> OrbixCorp
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#products" class="nav-link">Products</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="animated-gradient"></div>
+            <canvas id="canvas"></canvas>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    Transform Your Business with <span class="gradient-text">Innovative Technology</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Cutting-edge software solutions, AI-powered applications, and intelligent business tools for the modern enterprise
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="document.getElementById('products').scrollIntoView({behavior: 'smooth'})">
+                        Explore Products
+                        <span class="btn-icon"><i class="fas fa-arrow-right"></i></span>
+                    </button>
+                    <button class="btn btn-secondary" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">
+                        Get Started
+                    </button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-card card-1">
+                    <i class="fas fa-robot"></i>
+                    <p>AI-Powered</p>
+                </div>
+                <div class="floating-card card-2">
+                    <i class="fas fa-zap"></i>
+                    <p>Fast & Reliable</p>
+                </div>
+                <div class="floating-card card-3">
+                    <i class="fas fa-shield-alt"></i>
+                    <p>Secure</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About OrbixCorp</h2>
+                <p class="section-subtitle">Leading the Digital Transformation</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        OrbixCorp is a forward-thinking technology company dedicated to developing innovative software solutions, AI-powered applications, and intelligent business productivity tools. Our mission is to empower businesses of all sizes with cutting-edge technology that drives growth, efficiency, and innovation.
+                    </p>
+                    <p class="about-description">
+                        With a team of seasoned professionals and visionary developers, we specialize in creating tailored solutions that address real-world business challenges. From enterprise-level systems to specialized applications, OrbixCorp delivers excellence with every project. We combine cutting-edge artificial intelligence with practical business intelligence to create transformative solutions that solve complex problems and unlock new opportunities for our clients.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <h3>50+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>100+</h3>
+                            <p>Happy Clients</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>25+</h3>
+                            <p>Expert Team</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>99.9%</h3>
+                            <p>Uptime</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="about-image-box">
+                        <div class="image-gradient"></div>
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Products</h2>
+                <p class="section-subtitle">Revolutionary Solutions for Modern Challenges</p>
+            </div>
+            <div class="products-grid">
+                <!-- ZaNi.Ai Product -->
+                <div class="product-card featured-card">
+                    <div class="product-badge">Featured</div>
+                    <div class="product-header">
+                        <div class="product-icon">
+                            <i class="fas fa-boxes"></i>
+                        </div>
+                        <h3>ZaNi.Ai</h3>
+                    </div>
+                    <p class="product-subtitle">AI-Powered Inventory Management</p>
+                    <p class="product-description">
+                        ZaNi.Ai revolutionizes inventory management for small shopkeepers with intelligent AI algorithms that predict stock levels, optimize reordering, and minimize waste. Real-time analytics provide actionable insights to boost profitability and operational efficiency. Our flagship product combines machine learning with practical business logic to transform how retailers manage their inventory.
+                    </p>
+                    <div class="product-features">
+                        <div class="feature-item">
+                            <i class="fas fa-brain"></i> Smart Predictions
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-chart-bar"></i> Real-time Analytics
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-mobile-alt"></i> Mobile Friendly
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-lock"></i> Secure & Reliable
+                        </div>
+                    </div>
+                    <button class="btn btn-primary btn-block" onclick="scrollToContact()">
+                        Learn More About ZaNi.Ai
+                    </button>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-header">
+                        <div class="product-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>DataVault Pro</h3>
+                    </div>
+                    <p class="product-subtitle">Advanced Analytics Platform</p>
+                    <p class="product-description">
+                        Transform raw data into actionable business intelligence with our comprehensive analytics platform. Visualize trends, track KPIs, and make data-driven decisions with confidence. DataVault Pro provides enterprise-grade analytics capabilities designed for scalability and performance.
+                    </p>
+                    <div class="product-features">
+                        <div class="feature-item">
+                            <i class="fas fa-chart-line"></i> Deep Analytics
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-database"></i> Big Data Support
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-tachometer-alt"></i> Real-time Dashboards
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-code"></i> API Integration
+                        </div>
+                    </div>
+                    <button class="btn btn-outline">Explore</button>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="product-header">
+                        <div class="product-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>SecureFlow</h3>
+                    </div>
+                    <p class="product-subtitle">Enterprise Security Suite</p>
+                    <p class="product-description">
+                        Protect your digital assets with military-grade encryption and comprehensive security protocols. SecureFlow ensures your data remains secure against evolving threats. Our enterprise security suite combines proactive threat detection with reactive incident response capabilities.
+                    </p>
+                    <div class="product-features">
+                        <div class="feature-item">
+                            <i class="fas fa-lock"></i> End-to-End Encryption
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-shield"></i> Threat Detection
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-history"></i> Audit Logs
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-user-check"></i> Access Control
+                        </div>
+                    </div>
+                    <button class="btn btn-outline">Explore</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Why Choose OrbixCorp?</h2>
+                <p class="section-subtitle">Premium Features for Maximum Value</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-box">
+                    <div class="feature-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Industry Leading</h3>
+                    <p>Award-winning solutions recognized globally for innovation and excellence in technology development.</p>
+                </div>
+                <div class="feature-box">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Expert Support</h3>
+                    <p>24/7 dedicated support team to ensure your success, satisfaction, and seamless integration.</p>
+                </div>
+                <div class="feature-box">
+                    <div class="feature-icon">
+                        <i class="fas fa-cog"></i>
+                    </div>
+                    <h3>Easy Integration</h3>
+                    <p>Seamlessly integrate with your existing systems, workflows, and business processes.</p>
+                </div>
+                <div class="feature-box">
+                    <div class="feature-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Lightning Fast</h3>
+                    <p>Optimized performance delivering results in milliseconds with minimal latency.</p>
+                </div>
+                <div class="feature-box">
+                    <div class="feature-icon">
+                        <i class="fas fa-expand"></i>
+                    </div>
+                    <h3>Highly Scalable</h3>
+                    <p>Grow your operations without worrying about infrastructure limits or performance degradation.</p>
+                </div>
+                <div class="feature-box">
+                    <div class="feature-icon">
+                        <i class="fas fa-hand-holding-heart"></i>
+                    </div>
+                    <h3>Customer First</h3>
+                    <p>Your success is our priority with continuous innovation, updates, and improvement cycles.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">We'd Love to Hear From You</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p><a href="mailto:orbixcorp0@gmail.com">orbixcorp0@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p><a href="tel:+918787723350">+91 8787723350</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Address</h3>
+                            <p>Noida, Uttar Pradesh, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Business Hours</h3>
+                            <p>Monday - Friday: 9:00 AM - 6:00 PM IST<br>Saturday: 10:00 AM - 4:00 PM IST</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>OrbixCorp</h3>
+                    <p>Transforming businesses through innovative technology solutions and AI-powered applications for a better tomorrow.</p>
+                    <div class="social-links">
+                        <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Products</h4>
+                    <ul>
+                        <li><a href="#products">ZaNi.Ai</a></li>
+                        <li><a href="#products">DataVault Pro</a></li>
+                        <li><a href="#products">SecureFlow</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="mailto:orbixcorp0@gmail.com">orbixcorp0@gmail.com</a></li>
+                        <li><a href="tel:+918787723350">+91 8787723350</a></li>
+                        <li>Noida, Uttar Pradesh, India</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 OrbixCorp. All rights reserved. | Designed with <span style="color: #ff6b9d;">♥</span> for Innovation</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
